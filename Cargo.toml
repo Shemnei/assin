@@ -1,0 +1,13 @@
+[package]
+name = "assin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = { version = "0.21.0", features = ["alloc"] }
+lol_html = "0.3.2"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+ureq = "2.6.2"
